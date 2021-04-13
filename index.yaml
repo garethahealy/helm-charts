@@ -3,10 +3,10 @@ entries:
   argocd-operator:
   - apiVersion: v2
     appVersion: v1.8.7
-    created: "2021-04-13T18:53:50.715081394Z"
+    created: "2021-04-13T20:04:10.707891866Z"
     description: A Helm chart for customising the deployment of the ArgoCD Operator
       ⚓️
-    digest: e40615f649a0e06a2e1f8a7c9a2261b3dadea3ea172ac49ea4c1fa3a0a8ed2b9
+    digest: 42fada16b2a5ac234c9b9256e9651e44d2f724e7bc3b44de1ab38b58730b62de
     home: https://github.com/redhat-cop/helm-charts
     icon: https://cncf-branding.netlify.app/img/projects/argo/stacked/color/argo-stacked-color.png
     maintainers:
@@ -16,14 +16,14 @@ entries:
     - name: mabulgu
     name: argocd-operator
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/argocd-operator-1.0.5/argocd-operator-1.0.5.tgz
-    version: 1.0.5
+    - https://github.com/garethahealy/helm-charts/releases/download/argocd-operator-1.0.6/argocd-operator-1.0.6.tgz
+    version: 1.0.6
   bootstrap-project:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2021-04-13T18:53:50.882579115Z"
+    created: "2021-04-13T20:04:10.823638232Z"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
-    digest: b3de8995e65cb809d77e7dad70b0643406e93a59830ab517f2233ee7cc6c8f91
+    digest: 27c90b34d7dfb82dc52a7540bd26b0e06550ce89d117341ac95038a5113bef2d
     home: https://github.com/redhat-cop/helm-charts
     icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
     maintainers:
@@ -32,14 +32,14 @@ entries:
     - name: eformat
     name: bootstrap-project
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/bootstrap-project-0.0.9/bootstrap-project-0.0.9.tgz
-    version: 0.0.9
+    - https://github.com/garethahealy/helm-charts/releases/download/bootstrap-project-0.0.10/bootstrap-project-0.0.10.tgz
+    version: 0.0.10
   dev-ex-dashboard:
   - apiVersion: v2
     appVersion: v1.0
-    created: "2021-04-13T18:53:51.065253916Z"
+    created: "2021-04-13T20:04:10.922693789Z"
     description: A Helm chart to deploy the Developer Experience Dashboard
-    digest: 9536b58cba8d0bd992bf9d82c7959d398a0b8f318c4469a5d9682dd247b22e1b
+    digest: 04f34de282897ed5f69db1e1c21ecfaf5b2ede514a9b640c32025522ace80e76
     home: https://github.com/redhat-cop/helm-charts
     icon: https://cdn.iconscout.com/icon/free/png-256/dashboard-1739866-1481441.png
     maintainers:
@@ -49,14 +49,14 @@ entries:
     name: dev-ex-dashboard
     type: application
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/dev-ex-dashboard-0.0.4/dev-ex-dashboard-0.0.4.tgz
-    version: 0.0.4
+    - https://github.com/garethahealy/helm-charts/releases/download/dev-ex-dashboard-0.0.5/dev-ex-dashboard-0.0.5.tgz
+    version: 0.0.5
   etherpad:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-13T18:53:51.228949767Z"
+    created: "2021-04-13T20:04:11.019853344Z"
     description: A Helm chart for etherpad lite
-    digest: 95cd73413f4e00e6c9338df766593403691e24e718e838453d2d385cb9c2070f
+    digest: 4e4a3fd12490456d9b13c25c5cd2c40a61583b744bc2fa0cf6830513c6c418a0
     home: https://github.com/redhat-cop/helm-charts
     icon: https://pbs.twimg.com/profile_images/1336377123964145665/2gTadaDt_400x400.jpg
     maintainers:
@@ -64,15 +64,15 @@ entries:
     name: etherpad
     type: application
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/etherpad-0.0.4/etherpad-0.0.4.tgz
-    version: 0.0.4
+    - https://github.com/garethahealy/helm-charts/releases/download/etherpad-0.0.5/etherpad-0.0.5.tgz
+    version: 0.0.5
   helper-console-links:
   - apiVersion: v2
     appVersion: v1.6.1
-    created: "2021-04-13T18:53:51.400033744Z"
+    created: "2021-04-13T20:04:11.126820905Z"
     description: A Helm chart for customising the OpenShift web Console with Tool
       links
-    digest: d4c5be3bdfd56c9d94d7b4646a6d41bb65f3303082d9e413d0d89f5f8de097b2
+    digest: 851a00b08c9bb724f969e0bf3613756265902973801f43a2a1def83e4dc6bc85
     home: https://github.com/redhat-cop/helm-charts
     icon: https://image.flaticon.com/icons/png/512/25/25284.png
     maintainers:
@@ -80,15 +80,15 @@ entries:
     - name: eformat
     name: helper-console-links
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/helper-console-links-0.0.3/helper-console-links-0.0.3.tgz
-    version: 0.0.3
+    - https://github.com/garethahealy/helm-charts/releases/download/helper-console-links-0.0.4/helper-console-links-0.0.4.tgz
+    version: 0.0.4
   jenkins:
   - apiVersion: v2
     appVersion: v2.222.1
-    created: "2021-04-13T18:53:51.625565195Z"
+    created: "2021-04-13T20:04:11.248641675Z"
     description: A Helm chart for deploying Jenkins on OpenShift with some additional
       build agents and plugins
-    digest: 0357d7dcbef6fe53f60100aa99228096e9eee8b2bbf976d8e12f637cc3ee72bb
+    digest: 2d2e36b9ac7a0d96e77966feb0b03439e5a6304f4d0bc43d615402d83551477a
     home: https://github.com/redhat-cop/helm-charts
     icon: https://www.jenkins.io/images/logos/jenkins/256.png
     maintainers:
@@ -97,14 +97,14 @@ entries:
     - name: eformat
     name: jenkins
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.0/jenkins-1.0.0.tgz
-    version: 1.0.0
+    - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.1/jenkins-1.0.1.tgz
+    version: 1.0.1
   network-policy:
   - apiVersion: v2
     appVersion: v1
-    created: "2021-04-13T18:53:51.802137063Z"
+    created: "2021-04-13T20:04:11.351023633Z"
     description: A Helm chart for Kubernetes that manages Network policies
-    digest: 3d8a5103dd862beffadd790e19ad237d0e2627113719d55d9b61d0a551e569cd
+    digest: c576a739061f8f1105c8e6c063720333e75f85a079010354a9d5a3e6625b03cb
     home: https://github.com/redhat-cop/helm-charts
     icon: https://www.openshift.com/hubfs/images/icons/red-circle_lock.svg
     maintainers:
@@ -113,14 +113,14 @@ entries:
     - name: rh-jpoole
     name: network-policy
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/network-policy-1.0.1/network-policy-1.0.1.tgz
-    version: 1.0.1
+    - https://github.com/garethahealy/helm-charts/releases/download/network-policy-1.0.2/network-policy-1.0.2.tgz
+    version: 1.0.2
   pact-broker:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-13T18:53:51.983082641Z"
+    created: "2021-04-13T20:04:11.502070019Z"
     description: "A Helm chart for deploying Pact Broker on OpenShift \U0001F517"
-    digest: 12472a815923bc9b48127e17b7d2b40c9f63d27ad553bdcb4ef876849e227305
+    digest: 57a8d4b4d04593e6300f80c2471a1922cc457e1de7d93e1882176333989d822a
     home: https://github.com/redhat-cop/helm-charts
     icon: https://img.stackshare.io/service/11305/pact.png
     maintainers:
@@ -129,28 +129,28 @@ entries:
     - name: springdo
     name: pact-broker
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/pact-broker-0.0.6/pact-broker-0.0.6.tgz
-    version: 0.0.6
+    - https://github.com/garethahealy/helm-charts/releases/download/pact-broker-0.0.7/pact-broker-0.0.7.tgz
+    version: 0.0.7
   ploigos:
   - apiVersion: v2
     appVersion: 0.2.7
-    created: "2021-04-13T18:53:52.166916125Z"
+    created: "2021-04-13T20:04:11.623361488Z"
     description: A Helm chart for Ploigos - Trusted Software Supply Chain
-    digest: d851d50e7d17f10fab678b0bf656051ccea7ed00748a81faeb855b8f0b447cb7
+    digest: 453a76107c892acff82d2df9f8309f2528a56361084299a4340789b57640c9a1
     home: https://github.com/redhat-cop/helm-charts
     maintainers:
     - name: eformat
     name: ploigos
     type: application
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/ploigos-0.0.7/ploigos-0.0.7.tgz
-    version: 0.0.7
+    - https://github.com/garethahealy/helm-charts/releases/download/ploigos-0.0.8/ploigos-0.0.8.tgz
+    version: 0.0.8
   sonarqube:
   - apiVersion: v2
     appVersion: 8.7.1-community
-    created: "2021-04-13T18:53:52.33699623Z"
+    created: "2021-04-13T20:04:11.751431061Z"
     description: SonarQube is an open sourced code quality scanning tool
-    digest: c834bac900aae998160a88247aa018b09ab3a38a95313f6e5db30ea3ecda6a06
+    digest: 7c35e2a283afa512995138a1d045578faf8fefb5008f73907a829b6d27e43f00
     home: https://github.com/redhat-cop/helm-charts
     icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
     keywords:
@@ -162,14 +162,14 @@ entries:
     - name: eformat
     name: sonarqube
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/sonarqube-0.0.13/sonarqube-0.0.13.tgz
-    version: 0.0.13
+    - https://github.com/garethahealy/helm-charts/releases/download/sonarqube-0.0.14/sonarqube-0.0.14.tgz
+    version: 0.0.14
   sonatype-nexus:
   - apiVersion: v2
     appVersion: 3.29.1
-    created: "2021-04-13T18:53:52.507087236Z"
+    created: "2021-04-13T20:04:11.844837815Z"
     description: Sonatype Nexus is an open source repository manager
-    digest: 1cb34b0fff941ed90b84a62688478e9447a55aeb9380c3fc1be846a7c7da09a1
+    digest: 72ffc52dd6b7b7571188cac5107a7eef0876b4eea6d43ac42e857c9f3d4dcfd5
     home: https://github.com/redhat-cop/helm-charts
     icon: https://help.sonatype.com/docs/files/331022/34537964/3/1564671303641/NexusRepo_Icon.png
     maintainers:
@@ -178,6 +178,6 @@ entries:
     sources:
     - https://github.com/sonatype/nexus-public
     urls:
-    - https://github.com/garethahealy/helm-charts/releases/download/sonatype-nexus-0.0.14/sonatype-nexus-0.0.14.tgz
-    version: 0.0.14
-generated: "2021-04-13T18:53:50.500578227Z"
+    - https://github.com/garethahealy/helm-charts/releases/download/sonatype-nexus-0.0.15/sonatype-nexus-0.0.15.tgz
+    version: 0.0.15
+generated: "2021-04-13T20:04:10.589153798Z"
