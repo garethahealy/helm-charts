@@ -2,367 +2,156 @@ apiVersion: v1
 entries:
   argocd-operator:
   - apiVersion: v2
-    appVersion: v1.5.2
-    created: "2020-04-29T21:57:05.608930288Z"
+    appVersion: v1.8.7
+    created: "2021-04-13T18:53:50.715081394Z"
     description: A Helm chart for customising the deployment of the ArgoCD Operator
       ⚓️
-    digest: 05c5bdcad8de22ad13f615fe60bda12f26af9d3ee25cf4bb6577b517b456c24a
-    home: https://github.com/rht-labs/helm-charts
+    digest: e40615f649a0e06a2e1f8a7c9a2261b3dadea3ea172ac49ea4c1fa3a0a8ed2b9
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cncf-branding.netlify.app/img/projects/argo/stacked/color/argo-stacked-color.png
     maintainers:
     - name: springdo
     - name: ckavili
     - name: eformat
+    - name: mabulgu
     name: argocd-operator
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.6/argocd-operator-0.0.6.tgz
-    version: 0.0.6
-  - apiVersion: v2
-    appVersion: v1.5.2
-    created: "2020-04-25T11:03:21.614938033Z"
-    description: A Helm chart for customising the deployment of the ArgoCD Operator
-      ⚓️
-    digest: e774bcbd162c547879d313ef07f2f78bf486f4649875318fe64df8313be07f2c
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    - name: eformat
-    name: argocd-operator
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.5/argocd-operator-0.0.5.tgz
-    version: 0.0.5
-  - apiVersion: v2
-    appVersion: v1.5.2
-    created: "2020-04-24T11:17:39.568633604Z"
-    description: A Helm chart for customising the deployment of the ArgoCD Operator
-      ⚓️
-    digest: 58fcee5da72480e0b912e566d1b1c9332b2bfca43234fcf68eaaa245d6d6fd7c
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    - name: eformat
-    name: argocd-operator
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.4/argocd-operator-0.0.4.tgz
-    version: 0.0.4
-  - apiVersion: v2
-    appVersion: v0.0.2
-    created: "2020-04-23T08:17:00.993697629Z"
-    description: A Helm chart for customising the deployment of the ArgoCD Operator
-      ⚓️
-    digest: d9b9ad1d0fd4f4322d52defba9836db72e13064bad91db67eb7572dd40da0c9e
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    - name: eformat
-    name: argocd-operator
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.3/argocd-operator-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v2
-    appVersion: v0.0.2
-    created: "2020-04-22T10:12:42.139531179Z"
-    description: A Helm chart for customising the deployment of the ArgoCD Operator
-      ⚓️
-    digest: c6c538467d1ee985a7130e33de7da25563817b50ac61d284a859b8cd86e21f01
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: argocd-operator
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.2/argocd-operator-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    appVersion: v0.0.1
-    created: "2020-04-21T19:10:16.763071257Z"
-    description: A Helm chart for customising the deployment of the ArgoCD Operator
-      ⚓️
-    digest: 6fa3edf76fa99cb35cc2563f255088ba43a4531b479d033eb821b91507c98a22
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    name: argocd-operator
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/argocd-operator-0.0.1/argocd-operator-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/garethahealy/helm-charts/releases/download/argocd-operator-1.0.5/argocd-operator-1.0.5.tgz
+    version: 1.0.5
   bootstrap-project:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: v0.0.1
-    created: "2020-04-08T14:20:05.703017659Z"
+    created: "2021-04-13T18:53:50.882579115Z"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
-    digest: 110561da5283dc5ac08d7b9d8e3004fd325208f06428aebe0ed43384999372d5
-    home: https://github.com/rht-labs/charts
+    digest: b3de8995e65cb809d77e7dad70b0643406e93a59830ab517f2233ee7cc6c8f91
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png
     maintainers:
     - name: springdo
     - name: ckavili
+    - name: eformat
     name: bootstrap-project
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/bootstrap-project-0.0.4/bootstrap-project-0.0.4.tgz
+    - https://github.com/garethahealy/helm-charts/releases/download/bootstrap-project-0.0.9/bootstrap-project-0.0.9.tgz
+    version: 0.0.9
+  dev-ex-dashboard:
+  - apiVersion: v2
+    appVersion: v1.0
+    created: "2021-04-13T18:53:51.065253916Z"
+    description: A Helm chart to deploy the Developer Experience Dashboard
+    digest: 9536b58cba8d0bd992bf9d82c7959d398a0b8f318c4469a5d9682dd247b22e1b
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cdn.iconscout.com/icon/free/png-256/dashboard-1739866-1481441.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: dev-ex-dashboard
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/dev-ex-dashboard-0.0.4/dev-ex-dashboard-0.0.4.tgz
     version: 0.0.4
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-08T13:33:13.338352481Z"
-    description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
-    digest: d8bd5d1ba1832e3d1889af5b5c5b3c8af161c42413c929bc709d3fd65063f7ca
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: bootstrap-project
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/bootstrap-project-0.0.3/bootstrap-project-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-02T10:11:19.439002072Z"
-    description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
-    digest: 8501ed5fe2c1a6d0ad701550675e0e746cc89a871f55e3b230b28e44eaf500b4
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: bootstrap-project
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/bootstrap-project-0.0.2/bootstrap-project-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-01T13:11:18.898146994Z"
-    description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
-    digest: 86be1213a59ac1309fe48786c92a6e67ccc2147c53da534fa722a84664f9cc43
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: bootstrap-project
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/bootstrap-project-0.0.1/bootstrap-project-0.0.1.tgz
-    version: 0.0.1
   etherpad:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-04-24T10:48:51.796707343Z"
+    created: "2021-04-13T18:53:51.228949767Z"
     description: A Helm chart for etherpad lite
-    digest: e8f71a41d9801e270eea61cbdc15bdbcc10cc518d05ff19f61486e602b7f5bb2
-    home: https://github.com/rht-labs/helm-charts
+    digest: 95cd73413f4e00e6c9338df766593403691e24e718e838453d2d385cb9c2070f
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://pbs.twimg.com/profile_images/1336377123964145665/2gTadaDt_400x400.jpg
     maintainers:
     - name: eformat
     name: etherpad
     type: application
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/etherpad-0.0.1/etherpad-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/garethahealy/helm-charts/releases/download/etherpad-0.0.4/etherpad-0.0.4.tgz
+    version: 0.0.4
+  helper-console-links:
+  - apiVersion: v2
+    appVersion: v1.6.1
+    created: "2021-04-13T18:53:51.400033744Z"
+    description: A Helm chart for customising the OpenShift web Console with Tool
+      links
+    digest: d4c5be3bdfd56c9d94d7b4646a6d41bb65f3303082d9e413d0d89f5f8de097b2
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://image.flaticon.com/icons/png/512/25/25284.png
+    maintainers:
+    - name: JuozasA
+    - name: eformat
+    name: helper-console-links
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/helper-console-links-0.0.3/helper-console-links-0.0.3.tgz
+    version: 0.0.3
   jenkins:
   - apiVersion: v2
-    appVersion: v2.204.1
-    created: "2020-04-28T17:29:02.336922794Z"
+    appVersion: v2.222.1
+    created: "2021-04-13T18:53:51.625565195Z"
     description: A Helm chart for deploying Jenkins on OpenShift with some additional
       build agents and plugins
-    digest: 9e18b19f0e9dce62efee8930c598bebab245289674037658fb267291e56917ad
-    home: https://github.com/rht-labs/helm-charts
+    digest: 0357d7dcbef6fe53f60100aa99228096e9eee8b2bbf976d8e12f637cc3ee72bb
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.jenkins.io/images/logos/jenkins/256.png
     maintainers:
     - name: springdo
     - name: ckavili
+    - name: eformat
     name: jenkins
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.12/jenkins-0.0.12.tgz
-    version: 0.0.12
+    - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.0/jenkins-1.0.0.tgz
+    version: 1.0.0
+  network-policy:
   - apiVersion: v2
-    appVersion: v2.204.1
-    created: "2020-04-28T14:22:10.035127878Z"
-    description: A Helm chart for deploying Jenkins on OpenShift with some additional
-      build agents and plugins
-    digest: 2d78a030d0565afe2626d4a242d12d65e29c16131fd267e1a3b83e812c20b9c6
-    home: https://github.com/rht-labs/helm-charts
+    appVersion: v1
+    created: "2021-04-13T18:53:51.802137063Z"
+    description: A Helm chart for Kubernetes that manages Network policies
+    digest: 3d8a5103dd862beffadd790e19ad237d0e2627113719d55d9b61d0a551e569cd
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.openshift.com/hubfs/images/icons/red-circle_lock.svg
     maintainers:
     - name: springdo
     - name: ckavili
-    name: jenkins
+    - name: rh-jpoole
+    name: network-policy
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.11/jenkins-0.0.11.tgz
-    version: 0.0.11
-  - apiVersion: v2
-    appVersion: v2.204.1
-    created: "2020-04-28T12:05:08.417138152Z"
-    description: A Helm chart for deploying Jenkins on OpenShift with some additional
-      build agents and plugins
-    digest: d43d7aa9b1e3a74d42bf41f4751ae5178f5e5282ac43f0e946d59b131ff95b53
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.10/jenkins-0.0.10.tgz
-    version: 0.0.10
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-08T13:33:13.41300416Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: 0726c6bfcd538e98754cbd48073c124edc2b57ba93b82ed7446ecf6790e27d58
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.9/jenkins-0.0.9.tgz
-    version: 0.0.9
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-03T11:07:02.664984144Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: d38ecc430b22068c16d7098186273f41cb3e1d031af55d05515d82b9ac01ddd2
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.8/jenkins-0.0.8.tgz
-    version: 0.0.8
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-03T10:05:57.93613929Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: fe42e410865b27d5bebd20495288c0602ed9cd462ed502da55b9347ccd0de31d
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/jenkins-0.0.7/jenkins-0.0.7.tgz
-    version: 0.0.7
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-02T10:11:19.52003453Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: 549c170c82a7de3348bb33276e88ed5b1608d2423292187c96649f7f7040079b
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/jenkins-0.0.6/jenkins-0.0.6.tgz
-    version: 0.0.6
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-01T15:45:39.049234432Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: 9683e9617a0426afd6d6d385436c3d37ee8b2531995e9fd527ce613ab0f0e012
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/jenkins-0.0.4/jenkins-0.0.4.tgz
-    version: 0.0.4
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-01T15:12:11.66054854Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: 06bd6d34d3e9f6f4dc066ba2f67c5767acaf3df540bbc86ff581e963f00c6f0f
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/jenkins-0.0.3/jenkins-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-04-01T10:51:22.668810054Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: 23d211f4e140cfaddbc7172ee5c6bf6fe976675d4bb99d3784d65b8ac15e1f44
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/jenkins-0.0.2/jenkins-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-03-31T15:00:43.683320357Z"
-    description: A Helm chart for deploying Jenkins on OpenShift
-    digest: c0574318a3632bac5a97437099f5858b76378da22d376c32387ad6b2ee13cc73
-    home: https://github.com/rht-labs/charts
-    maintainers:
-    - name: springdo
-    - name: ckavili
-    name: jenkins
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/jenkins-0.0.1/jenkins-0.0.1.tgz
-    version: 0.0.1
-  operatorhub:
-  - apiVersion: v1
-    appVersion: 0.0.2
-    created: "2020-04-08T13:33:13.500532536Z"
-    description: A Helm chart to create OperatorHub subscriptions
-    digest: 3e43e5b283f52be83982093220316ec1157d62ec8f9960c3b8d4d8e9b3ff63f1
-    home: https://github.com/rht-labs/helm-charts
-    maintainers:
-    - name: tylerauerbeck
-    - name: ckavili
-    - name: mabulgu
-    name: operatorhub
-    type: application
-    urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/operatorhub-0.0.3/operatorhub-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v1
-    appVersion: 0.0.1
-    created: "2020-03-31T15:00:43.779016061Z"
-    description: A Helm chart to create OperatorHub subscriptions
-    digest: 6bf44df7e33af62175a0cfc40dbc316416e7103ae7f3035cd6f16ddce98bd4ff
-    name: operatorhub
-    type: application
-    urls:
-    - https://github.com/rht-labs/charts/releases/download/operatorhub-0.0.1/operatorhub-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/garethahealy/helm-charts/releases/download/network-policy-1.0.1/network-policy-1.0.1.tgz
+    version: 1.0.1
   pact-broker:
   - apiVersion: v2
-    appVersion: v0.0.1
-    created: "2020-04-21T19:10:16.854259871Z"
+    appVersion: latest
+    created: "2021-04-13T18:53:51.983082641Z"
     description: "A Helm chart for deploying Pact Broker on OpenShift \U0001F517"
-    digest: 54bed6fd1195b54bdb079188a04cbef2b5eef13d59da9da26c5d0d818d9e7d64
-    home: https://github.com/rht-labs/helm-charts
+    digest: 12472a815923bc9b48127e17b7d2b40c9f63d27ad553bdcb4ef876849e227305
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://img.stackshare.io/service/11305/pact.png
     maintainers:
     - name: mvmaestri
     - name: gsampaio
     - name: springdo
     name: pact-broker
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/pact-broker-0.0.2/pact-broker-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v1
-    appVersion: v0.0.1
-    created: "2020-03-31T15:00:43.906799699Z"
-    description: A Helm chart for deploying Pact Broker on OpenShift
-    digest: 07048ff3b1e54fc86e12f3b838f0dbd3dbe5584058a06785c4c4d2620a6932ba
-    home: https://github.com/rht-labs/charts
+    - https://github.com/garethahealy/helm-charts/releases/download/pact-broker-0.0.6/pact-broker-0.0.6.tgz
+    version: 0.0.6
+  ploigos:
+  - apiVersion: v2
+    appVersion: 0.2.7
+    created: "2021-04-13T18:53:52.166916125Z"
+    description: A Helm chart for Ploigos - Trusted Software Supply Chain
+    digest: d851d50e7d17f10fab678b0bf656051ccea7ed00748a81faeb855b8f0b447cb7
+    home: https://github.com/redhat-cop/helm-charts
     maintainers:
-    - name: mvmaestri
-    - name: gsampaio
-    name: pact-broker
+    - name: eformat
+    name: ploigos
+    type: application
     urls:
-    - https://github.com/rht-labs/charts/releases/download/pact-broker-0.0.1/pact-broker-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/garethahealy/helm-charts/releases/download/ploigos-0.0.7/ploigos-0.0.7.tgz
+    version: 0.0.7
   sonarqube:
-  - apiVersion: v1
-    appVersion: 8.2-community
-    created: "2020-04-01T17:33:45.409007447Z"
+  - apiVersion: v2
+    appVersion: 8.7.1-community
+    created: "2021-04-13T18:53:52.33699623Z"
     description: SonarQube is an open sourced code quality scanning tool
-    digest: eb5ac73e5c67fb9d57a275028a5b6be47d2026a956baeae0c5502246c5b48a65
-    home: https://github.com/eformat/charts
+    digest: c834bac900aae998160a88247aa018b09ab3a38a95313f6e5db30ea3ecda6a06
+    home: https://github.com/redhat-cop/helm-charts
     icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
     keywords:
     - coverage
@@ -373,20 +162,22 @@ entries:
     - name: eformat
     name: sonarqube
     urls:
-    - https://github.com/rht-labs/charts/releases/download/sonarqube-0.0.4/sonarqube-0.0.4.tgz
-    version: 0.0.4
-  static-site:
+    - https://github.com/garethahealy/helm-charts/releases/download/sonarqube-0.0.13/sonarqube-0.0.13.tgz
+    version: 0.0.13
+  sonatype-nexus:
   - apiVersion: v2
-    appVersion: 1.17.9-alpine
-    created: "2020-04-20T10:35:22.893085769Z"
-    description: A Helm chart for deploying a static-site with auto-updating
-    digest: c99522300da791c6a246359d71a415c122a70c897488b8458307dde4b97bb186
-    home: https://github.com/rht-labs/helm-charts
+    appVersion: 3.29.1
+    created: "2021-04-13T18:53:52.507087236Z"
+    description: Sonatype Nexus is an open source repository manager
+    digest: 1cb34b0fff941ed90b84a62688478e9447a55aeb9380c3fc1be846a7c7da09a1
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://help.sonatype.com/docs/files/331022/34537964/3/1564671303641/NexusRepo_Icon.png
     maintainers:
-    - name: jijiechen
-    name: static-site
-    type: application
+    - name: eformat
+    name: sonatype-nexus
+    sources:
+    - https://github.com/sonatype/nexus-public
     urls:
-    - https://github.com/rht-labs/helm-charts/releases/download/static-site-0.0.3/static-site-0.0.3.tgz
-    version: 0.0.3
-generated: "2020-03-31T15:00:43.554648618Z"
+    - https://github.com/garethahealy/helm-charts/releases/download/sonatype-nexus-0.0.14/sonatype-nexus-0.0.14.tgz
+    version: 0.0.14
+generated: "2021-04-13T18:53:50.500578227Z"
