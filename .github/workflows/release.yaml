@@ -50,17 +50,16 @@ jobs:
       - name: Setup cosign
         uses: sigstore/cosign-installer@9614fae9e5c5eddabb09f90a270fcb487c9f7149 # v3
 
-      - name: Cosign sign packaged chart
-        run: |
-          ls -lrt .cr-release-packages/
-          #echo "${{ secrets.GITHUB_TOKEN }}" | cosign login --username ${{ github.repository_owner }} --password-stdin ghcr.io
-          #cosign generate-key-pair github://${{ github.repository }}/${{ github.repository_owner }}
-
-      - name: Generate hashes
+      - name: Cosign sign packaged chart and generate hashs
         shell: bash
         id: hash
         run: |
-          echo "hashes=$(sha256sum policy.tar | base64 -w0)" >> "$GITHUB_OUTPUT"
+          packaged_charts=$(ls .cr-release-packages/*.tgz | xargs)
+          for chart in ${packaged_charts}; do
+            cosign sign-blob --yes ${chart}
+          done
+          
+          echo "hashes=$(sha256sum ${packaged_charts} | base64 -w0)" >> "$GITHUB_OUTPUT"
 
     outputs:
       hashes: ${{ steps.hash.outputs.hashes }}
