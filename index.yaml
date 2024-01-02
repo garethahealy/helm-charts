@@ -1,6 +1,43 @@
 apiVersion: v1
 entries:
+  ipa:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-02T16:28:34.627382132Z"
+    dependencies:
+    - condition: ldap_group_sync
+      name: cronjob-ldap-group-sync
+      repository: https://redhat-cop.github.io/openshift-management
+      version: 0.0.2
+    description: A Helm chart to install FreeIPA
+    digest: 8e0f2f63c3fb70020d5da571b8a01ae186d36a0f170fedd96da7140762c9f396
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.freeipa.org/images/freeipa/freeipa-logo-small.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: ipa
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/ipa-1.3.4/ipa-1.3.4.tgz
+    version: 1.3.4
   jenkins:
+  - apiVersion: v2
+    appVersion: v2.222.1
+    created: "2024-01-02T16:28:34.769514964Z"
+    description: A Helm chart for deploying Jenkins on OpenShift with some additional
+      build agents and plugins
+    digest: 9ec79c50ab047433e67cc34013c1f377f9cc5339434d047e1712dd62523a26d7
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.jenkins.io/images/logos/jenkins/256.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: jenkins
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.13/jenkins-1.0.13.tgz
+    version: 1.0.13
   - apiVersion: v2
     appVersion: v2.222.1
     created: "2024-01-02T16:22:46.569503813Z"
@@ -17,4 +54,4 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.12/jenkins-1.0.12.tgz
     version: 1.0.12
-generated: "2024-01-02T16:22:46.569513461Z"
+generated: "2024-01-02T16:28:34.769524001Z"
