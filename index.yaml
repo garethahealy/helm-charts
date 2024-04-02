@@ -54,4 +54,19 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.12/jenkins-1.0.12.tgz
     version: 1.0.12
-generated: "2024-01-02T16:28:34.769524001Z"
+  static-site:
+  - apiVersion: v2
+    appVersion: 1.17.9-alpine
+    created: "2024-04-02T10:46:23.53766024Z"
+    description: A Helm chart for deploying a static-site with auto-updating
+    digest: 3f6745d82760f744c6e22485bf59e880e34102adc03caf17a32080bc9df19356
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://i.dlpng.com/static/png/6796939_preview.png
+    maintainers:
+    - name: jijiechen
+    name: static-site
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/static-site-0.0.16/static-site-0.0.16.tgz
+    version: 0.0.16
+generated: "2024-04-02T10:46:23.537672153Z"
