@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  gitops-operator:
+  - apiVersion: v2
+    appVersion: v2.10.5
+    created: "2024-04-11T09:32:38.512240764Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: 1196ff54fa36809ab5accd58c33cb9588a191576e0b8ac728c3f6d5988900139
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/gitops-operator-0.10.5/gitops-operator-0.10.5.tgz
+    version: 0.10.5
   ipa:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -69,4 +85,4 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/static-site-0.0.16/static-site-0.0.16.tgz
     version: 0.0.16
-generated: "2024-04-02T10:46:23.537672153Z"
+generated: "2024-04-11T09:32:38.512251965Z"
