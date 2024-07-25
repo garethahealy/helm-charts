@@ -31,7 +31,65 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/gitops-operator-0.10.5/gitops-operator-0.10.5.tgz
     version: 0.10.5
+  helper-operator:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:02.556168978Z"
+    description: A helper Chart to reduce code repetition. This Chart should be called
+      as a dependency by other charts in order to install Operators.
+    digest: 80cbf9443046f404ec0201d60048b7682cbd008c738fc9175f6d101eaa5bdab5
+    home: https://github.com/redhat-cop/helm-charts
+    keywords:
+    - helper
+    - subchart
+    - operator
+    maintainers:
+    - email: tjungbau@redhat.com
+      name: tjungbauer
+      url: https://blog.stderr.at/
+    name: helper-operator
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/helper-operator-1.0.26/helper-operator-1.0.26.tgz
+    version: 1.0.26
+  helper-status-checker:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:02.739612529Z"
+    description: A helper Chart that creates a job to verify if the deployments of
+      an operator are running. To do so it creates a service account with a role to
+      read the status of the Deployments.
+    digest: 99ff235614bd73a22f0b49f8c726ff17e596618ba7b1432242cabe20624559a7
+    home: https://github.com/redhat-cop/helm-charts
+    keywords:
+    - helper
+    - subchart
+    maintainers:
+    - email: tjungbau@redhat.com
+      name: tjungbauer
+      url: https://blog.stderr.at/
+    name: helper-status-checker
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/helper-status-checker-4.0.9/helper-status-checker-4.0.9.tgz
+    version: 4.0.9
   ipa:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-25T10:45:02.893386993Z"
+    dependencies:
+    - condition: ldap_group_sync
+      name: cronjob-ldap-group-sync
+      repository: https://redhat-cop.github.io/openshift-management
+      version: 0.0.2
+    description: A Helm chart to install FreeIPA
+    digest: ccf6c4ea4d0b33c1cf4bb49ee016dbd45048fe2885d3af0b519fec8f20f1eeb5
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.freeipa.org/images/freeipa/freeipa-logo-small.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: ipa
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/ipa-1.3.8/ipa-1.3.8.tgz
+    version: 1.3.8
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-01-02T16:28:34.627382132Z"
@@ -85,7 +143,39 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/jenkins-1.0.12/jenkins-1.0.12.tgz
     version: 1.0.12
+  operators-installer:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:03.075914688Z"
+    description: Installs a given list of operators either using Automatic or Manual
+      InstallPlans. If Manual then version of operator can be controlled declarativly.
+    digest: 65900423befe89f9c3eec5306550500a7bc7a6462019e35be0208b08ef16eb31
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/operator-framework/olm-docs/ea9cd734aa7a6bf2d24f273322ed9aec3ffcb02a/content/en/images/logo-sm.svg
+    keywords:
+    - olm
+    - operators
+    maintainers:
+    - name: itewk
+    name: operators-installer
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/operators-installer-3.0.1/operators-installer-3.0.1.tgz
+    version: 3.0.1
   owncloud:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-07-25T10:45:03.266501301Z"
+    description: A Helm chart for Owncloud
+    digest: 45b4aa6ffcb5afee07a215828e6f74a81d434ae8a3c20479b70683f45375ca2f
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://alternative.me/media/256/owncloud-icon-ge0uksoxjjfyflu8-c.png
+    maintainers:
+    - name: eformat
+    name: owncloud
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/owncloud-0.0.19/owncloud-0.0.19.tgz
+    version: 0.0.19
   - apiVersion: v2
     appVersion: latest
     created: "2024-05-29T14:22:02.779385705Z"
@@ -101,6 +191,24 @@ entries:
     - https://github.com/garethahealy/helm-charts/releases/download/owncloud-0.0.18/owncloud-0.0.18.tgz
     version: 0.0.18
   sonarqube:
+  - apiVersion: v2
+    appVersion: 9.9.1-community
+    created: "2024-07-25T10:45:03.410967154Z"
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 626fdd2236a8c520a489339d7af6f0d254e565663acb1987d12e165c0c5cc028
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - name: eformat
+    name: sonarqube
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/sonarqube-0.1.11/sonarqube-0.1.11.tgz
+    version: 0.1.11
   - apiVersion: v2
     appVersion: 9.9.1-community
     created: "2024-05-29T14:22:02.983193769Z"
@@ -119,7 +227,35 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/sonarqube-0.1.10/sonarqube-0.1.10.tgz
     version: 0.1.10
+  stackrox-chart:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:03.579349408Z"
+    description: Install and Configure Stackrox
+    digest: d9171bdfcf8258ce0640ce3e69a83b65125633116f1044a8499ddf9af5750cd5
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://avatars.githubusercontent.com/u/40638982?s=200&v=4
+    maintainers:
+    - name: eformat
+    name: stackrox-chart
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/stackrox-chart-0.0.9/stackrox-chart-0.0.9.tgz
+    version: 0.0.9
   static-site:
+  - apiVersion: v2
+    appVersion: 1.17.9-alpine
+    created: "2024-07-25T10:45:03.740852223Z"
+    description: A Helm chart for deploying a static-site with auto-updating
+    digest: 988f4035227e49d7be7c26a756626fb15d2152713661a223623853b68ce00e5c
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://i.dlpng.com/static/png/6796939_preview.png
+    maintainers:
+    - name: jijiechen
+    name: static-site
+    type: application
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/static-site-0.0.18/static-site-0.0.18.tgz
+    version: 0.0.18
   - apiVersion: v2
     appVersion: 1.17.9-alpine
     created: "2024-05-29T14:22:03.188331686Z"
@@ -151,6 +287,27 @@ entries:
   tekton-demo:
   - apiVersion: v2
     appVersion: latest
+    created: "2024-07-25T10:45:03.922800572Z"
+    description: This is an example of a pipeline developed in Tekton, the peaceful
+      cat. It contains the main steps of a continuous software delivery process. It
+      enforces a strict semantic version validation strategy, managing tag increments
+      for you. Develop, Features, releases, patches and hotfixes flows are supported.
+    digest: 90a763a9e115ca60931365dc89a47e5e2fd6888c6aec2c7f949bb42311f367aa
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cd.foundation/wp-content/uploads/sites/78/2020/04/tekton-icon-color-1-300x300.png
+    keywords:
+    - tekton
+    - pipeline
+    - nodejs
+    - github
+    maintainers:
+    - name: mvmaestri
+    name: tekton-demo
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/tekton-demo-0.0.14/tekton-demo-0.0.14.tgz
+    version: 0.0.14
+  - apiVersion: v2
+    appVersion: latest
     created: "2024-05-29T14:22:03.397120439Z"
     description: This is an example of a pipeline developed in Tekton, the peaceful
       cat. It contains the main steps of a continuous software delivery process. It
@@ -170,4 +327,39 @@ entries:
     urls:
     - https://github.com/garethahealy/helm-charts/releases/download/tekton-demo-0.0.13/tekton-demo-0.0.13.tgz
     version: 0.0.13
-generated: "2024-06-12T09:46:46.964332182Z"
+  tpl:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:04.090190804Z"
+    description: A library that shall collect certain templates to reuse them among
+      different charts.
+    digest: ea97c97c3c963a83fc45d4efa7038f3f658424d82c8632dbcfa4949490afce78
+    home: https://github.com/redhat-cop/helm-charts/tree/main/charts/tpl
+    keywords:
+    - templates
+    - helper
+    - subchart
+    maintainers:
+    - email: tjungbau@redhat.com
+      name: tjungbauer
+      url: https://blog.stderr.at/
+    name: tpl
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/tpl-1.0.7/tpl-1.0.7.tgz
+    version: 1.0.7
+  update-clusterversion:
+  - apiVersion: v2
+    created: "2024-07-25T10:45:04.235353082Z"
+    description: A Helm chart to update OpenShift ClusterVersion
+    digest: 000b8500ea720508ba6385884480847e6717739651c09eb2ba3a4f3800878eba
+    home: https://github.com/redhat-cop/helm-charts
+    keywords:
+    - configuration
+    maintainers:
+    - email: tjungbau@redhat.com
+      name: tjungbauer
+      url: https://blog.stderr.at/
+    name: update-clusterversion
+    urls:
+    - https://github.com/garethahealy/helm-charts/releases/download/update-clusterversion-1.0.0/update-clusterversion-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-25T10:45:04.235407594Z"
